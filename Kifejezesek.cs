@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,7 +20,7 @@ namespace ConsoleApp16
             this.secondNum = Convert.ToInt32(mezok[2]);
             this.operStr = mezok[1];
         }
-
+        
         public Kifejezesek(int firstNum, int secondNum, string operStr)
         {
             this.firstNum = firstNum;
